@@ -47,15 +47,15 @@ def main():
 def menu():
     print("Please select an option:")
     print("0. Exit the program")
-    print("1. create a question")
-    print("2. create a animal type")
-    print("3. delete a question")
-    print("4. delete an animal type")
-    print("5. find an animal by id")
-    print("6. find a question by id")
-    print("7. view all animal types")
-    print("8. view all questions")
-    print("9. play game")
+    print("1. Create a question")
+    print("2. Create a animal type")
+    print("3. Delete a question")
+    print("4. Delete an animal type")
+    print("5. Find an animal by id")
+    print("6. Find a question by id")
+    print("7. View all animal types")
+    print("8. View all questions")
+    print("9. Play game")
 
 
 if __name__ == "__main__":

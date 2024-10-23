@@ -6,9 +6,9 @@ Welcome to my Phase 3 project!
 
 This is an animal trvia game.
 
-There are five different animal types to start with. Each animal type has five questions. 
+There are five different animal types to start with. Each animal type has four questions. 
 
-In this project, you have the ability to add questions and add the corrosponding animal type, if not already declared.
+In this project, users have the ability to add questions and add the corrosponding animal types, if not already declared.
 Users have the ability to delete questions and animal types, find them by their ID, and find all animal types and questions.
 
 

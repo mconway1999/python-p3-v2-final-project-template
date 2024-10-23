@@ -107,4 +107,4 @@ class Animals:
 
 
     def __repr__(self):
-        return f"<Animal # {self.id}: animal type = {self.animal_type}>"
+        return f"<Animal # {self.id}: Animal Type = {self.animal_type}>"

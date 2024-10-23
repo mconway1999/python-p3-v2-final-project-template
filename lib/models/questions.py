@@ -81,6 +81,7 @@ class Questions:
             return cls.instance_from_db(row)
         else:
             return None
+        
     @classmethod
     def get_all(cls):
         sql = """
@@ -110,7 +111,7 @@ class Questions:
     
     def delete(self):
         sql = """
-            DELETE FROM question
+            DELETE FROM questions
             WHERE id = ?
         """
         CURSOR.execute(sql, (self.id,))
@@ -132,4 +133,4 @@ class Questions:
             return None
     
     def __repr__(self):
-        return f"<Question # {self.id}: correct_answer = {self.correct_answer} Animal id = {self.animal_id}>"
+        return f"<Question # {self.id}: Animal Question ={self.text} Correct answer = {self.correct_answer} Animal id = {self.animal_id}>"
