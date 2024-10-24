@@ -4,7 +4,7 @@
 
 Welcome to my Phase 3 project!
 
-This is an animal trvia game.
+This is an animal trivia game.
 
 To start with, there are five different animal types. Each animal type has four questions. 
 
